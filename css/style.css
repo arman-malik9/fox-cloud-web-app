@@ -1,0 +1,182 @@
+/*Arman CSS*/
+:root {
+ 
+        --color-1 : grey ;
+        --color-2 : #212121;
+       // --color-3 : limegreen;
+         --color-3 : #28a745;
+        --color-4 : #ECEFF1;
+        --color-5 : gainsboro;
+        --fontSize-1 : 2 rem;
+        --fontSize-2 :3 rem;
+        --fontSize-3 :4 rem;
+        --fontSize-4 :5 rem;
+        
+}
+/* common CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    color:var(--color-1);
+}
+a:hover {
+    text-decoration: none;
+    color: var(--color-3);
+}
+
+i {
+    font-size: 50px;
+    color: var(--color-3);
+}
+
+span {
+    color: var(--color-3);
+}
+h2,h3,h4{
+    font-weight: 400;
+    color: dimgrey;
+}
+p {
+    font-weight: 300;
+}
+ h1{
+     font-size: 2 rem;
+     font-weight:bolder;
+    color: dimgrey;
+}
+.list {
+    
+}
+.list ul {
+    list-style: none;
+   font-size: 20px; 
+}
+.list ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+
+/* top header */
+#banner {
+    
+    background: url(../image/20200905_185319.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#detail {
+    color:var(--color-3);
+    font-size: 50px;
+    margin-top: 230px;
+   
+}
+#login {
+
+    box-shadow: 1px 3px 5px 1px dimgrey;
+    background-color:var(--color-2);
+    padding: 20px 30px;
+    margin: 130px 100px 82px 100px ;
+border-radius:10px;
+}
+ h5{
+	margin-right:200px;
+}
+#login input {
+   /* width: 100%;
+    border-style: none;
+    background: transparent;
+    border-bottom: 1px solid grey;
+    overflow: hidden;*/
+    outline: none;
+}
+/* portion 3*/
+
+#detail2 {
+    margin: 30px;
+    
+    text-align: center;
+}
+#detail2 h1{
+    margin-top: 60px;
+}
+/* portion 4*/
+.class2 {
+    margin: 30px 0px;
+    text-align: center;
+
+}
+.class2 h1 {
+    font-weight: 300;
+}
+.class3 h3 {
+    text-align: center;
+}
+.class3 p {
+    text-align: center;
+}
+#icon i {
+    margin-left: 150px
+}
+#signup {
+   
+    padding: 40px;
+   text-align: center;
+    background-color: var(--color-3);
+}
+
+#signup h1 {
+     color: var(--color-4);
+    padding: 15px;
+}
+
+/* footer work */
+
+#footer {
+
+background-color: var(--color-2 );
+
+}
+
+#footer ul {
+    list-style: none;
+    margin: 15px;
+    padding: 15px;
+}
+#footer ul li {
+    padding: 10px;
+}
+#copy {
+ text-align: center;   
+}
+div#header {
+    position: fixed;
+    z-index: 1;
+    background:#212121 ;
+    width: 100%;
+    display: block;
+}
+.search-btn .btn.btn-success {
+    border-radius: 1rem;
+}
+  .blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
